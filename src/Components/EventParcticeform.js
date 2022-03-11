@@ -11,7 +11,7 @@ const EventParcticeForm = () => {
   const onChange = (e) => {
     const nextForm = {
       ...form,
-      [e.target.value]: e.target.value,
+      [e.target.name]: e.target.value,
     };
     setForm(nextForm);
     console.log("하이");
