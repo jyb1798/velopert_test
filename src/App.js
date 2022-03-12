@@ -5,6 +5,7 @@ import EventParcticeForm from "./Components/EventParcticeform";
 import IterationSample from "./Components/IterationSample";
 import FilterTest from "./Components/FilterTest";
 import Counter from "./Components/Counter";
+import Info from "./Components/Info";
 function App() {
   return (
     <>
@@ -13,7 +14,8 @@ function App() {
       {/* <EventParcticeForm /> */}
       {/* <IterationSample /> */}
       {/* <FilterTest /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Info />
     </>
   );
 }
