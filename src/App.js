@@ -4,14 +4,16 @@ import EventParctice from "./Components/EventParctice";
 import EventParcticeForm from "./Components/EventParcticeform";
 import IterationSample from "./Components/IterationSample";
 import FilterTest from "./Components/FilterTest";
+import Counter from "./Components/Counter";
 function App() {
   return (
     <>
       {/* <Test /> */}
       {/* <EventParctice /> */}
       {/* <EventParcticeForm /> */}
-      <IterationSample />
+      {/* <IterationSample /> */}
       {/* <FilterTest /> */}
+      <Counter />
     </>
   );
 }
