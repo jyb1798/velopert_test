@@ -6,6 +6,7 @@ import IterationSample from "./Components/IterationSample";
 import FilterTest from "./Components/FilterTest";
 import Counter from "./Components/Counter";
 import Info from "./Components/Info";
+import Average from "./Components/Average";
 
 function App() {
   // const [visible, setVisible] = useState(false);
@@ -17,7 +18,8 @@ function App() {
       {/* <EventParcticeForm /> */}
       {/* <IterationSample /> */}
       {/* <FilterTest /> */}
-      <Counter />
+      {/* <Counter /> */}
+      <Average />
       {/* <button onClick={() => setVisible(!visible)}>
         {visible ? "숨기기" : "보이기"}
       </button>
